@@ -3,10 +3,12 @@ const type = Number(getValue('type'));
 
 switch (type) {
   case 1: {
+    alert('1');
     location.href = './type/1/index.html';
     break;
   }
   case 2: {
+    alert('2')
     location.href = './type/2/index.html';
     break;
   }
